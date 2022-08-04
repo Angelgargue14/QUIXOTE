@@ -1,0 +1,188 @@
+/* 
+    Created on : 13 mar. 2022, 18:08:17
+    Author     : angelgg94
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: static;
+    width: 1900px;
+    height: 1020px;
+    background-color: rgba(104, 106, 121,0.7);
+}
+button{
+    background-color: white;
+}
+aside{
+    position: static;
+    display: inline-block;
+    float: left;
+    width: 25%;
+    height: 1080px;
+    
+}
+
+img#logotipo {
+    position: static;
+    float: left;
+    margin-right: 2%;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+}
+button#usuario {
+    position: static;
+    float: right;
+    width: 130px;
+    height: 130px;
+    display: inline-block;
+}
+#cab_pidiendo{
+    width: 100%;
+}
+#cab_pidiendo tr td{
+    border: 1px solid black;
+    padding: 0 1px;
+    background-color: white;
+}
+#cab_pidiendo tr #Desc_cab_pidiendo{
+    padding-right: 60px;
+}
+#lin_pidiendo{
+    background-color: white;
+    border: 1px solid black;
+    height: 450px;
+    width: 100%;
+    overflow-y: scroll;
+}
+#pie_pidiendo{
+    width: 100%;
+}
+
+#pie_pidiendo tr th{
+    border: 1px solid black;
+    padding: 0 1px;
+    background-color: white;
+    text-align: center;
+}
+
+/*PIDIENDO*/
+#pidiendo tr td{
+    padding: 0 18px;
+}
+
+
+
+#teclado{
+    width: 70%;
+    height: 430px;
+    display: inline-block;
+}
+
+#teclado button{
+    padding: 20px 25px;
+    
+    margin: 10px;
+    font-size: medium;
+}
+#borrar {
+    background-color: red;
+    font-style: oblique;
+}
+
+#cobrar{
+    width: 20%;
+    height: 380px;
+    position: relative;
+    display: inline-flex;
+    float: right;
+    top: 30px;
+    left: -15px;
+    
+}
+#cobrar button{
+    width: 80px;
+    height: 350px;
+    color: goldenrod;
+    font-size: large;
+    border-radius: 5px;
+    font-size: 50px;
+    font-family: fantasy;
+}
+
+section {
+    position: static;
+    display: inline-block;
+    float: left;
+    width: 75%;
+    height: 1080px;
+}
+#botonera {
+    width: 100%;
+    height: 130px;
+    display: block;
+    position: static;
+    float: left;
+}
+#botonera button{
+    height: 100%;
+    width: 210px;
+    margin: 0 10px;
+    font-size:medium;   
+}
+#bebidas{
+    background-color: blue;
+}
+#articulos{
+    display: block;
+    position: static;
+    float: left;
+    width: 100%;
+    height: 690px;
+    margin: 0 10px;    
+}
+#articulos #art_bocadillos{
+    display: none;
+}
+#articulos #art_tapas{
+    display: none;
+}
+#articulos #art_pinchos{
+    display: none;
+}
+#articulos #art_raciones{
+    display: none;
+}
+#articulos #art_postres{
+    display: none;
+}
+#art_bebidas {
+    display: inline-block;
+    position: static;
+}
+#articulos div button {
+    display: inline-block;
+    position: static;
+    width: 215px;
+    height: 170px;
+    margin: 5px;
+}
+
+#sines{
+    display: block;
+    position: static;
+    float: left;
+    width: 100%;
+    height: 260px;
+    margin: 0 10px; 
+}
+#sines button{
+    display: inline-block;
+    position: static;
+    width: 130px;
+    height: 130px;
+    margin: 5px;
+}

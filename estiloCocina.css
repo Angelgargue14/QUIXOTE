@@ -1,0 +1,46 @@
+/* 
+    Created on : 123 may. 2022, 09:05:17
+    Author     : angelgg94
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    position: static;
+    width: 1900px;
+    height: 1020px;
+    background-color: rgba(104, 106, 121,0.7);
+}
+.cuadros{
+    display: inline-block;
+    border: 2px solid red;
+    width: 471px;
+    height: 400px;
+    overflow-y: scroll;
+    background-color: red;
+}
+.cuadrosdos{
+    display: inline-block;
+    border: 2px solid black;
+    width: 471px;
+    height: 400px;
+    overflow-y: scroll;
+}
+
+#sincuadro{
+    display: none;
+}
+
+#titulo{
+    background-color: blue;
+    text-align: center;
+    font-style: italic;
+    font-size: xx-large;
+}
+#lineas{
+    background-color: aqua;
+    
+    
+}
+
